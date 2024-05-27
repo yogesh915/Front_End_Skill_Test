@@ -5,9 +5,9 @@ function updateClock(){  // A function that updates the clock display every seco
     // // alertAlarm();
     const now = new Date(); //  Creates a new Date object representing the current date and time.
 
-    let hours = now.getHours(); // Extract the current hours, minutes, and seconds from the Date object.
-    let minutes = now.getMinutes(); // Extract the current hours, minutes, and seconds from the Date object.
-    let seconds = now.getSeconds(); // Extract the current hours, minutes, and seconds from the Date object.
+    let hours = now.getHours(); // Extract the current hours from the Date object.
+    let minutes = now.getMinutes(); // Extract the current minutes from the Date object.
+    let seconds = now.getSeconds(); // Extract the current seconds from the Date object.
 
     const ampm = hours >= 12 ? 'PM' : 'AM'; //  Determines whether it's AM or PM based on the current hour.
 
