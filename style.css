@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;  /* Horizontally centers the container within the body */
+    align-items: center;     /* Vertically centers the container within the body */
+    height: 100vh;
+    background: linear-gradient(to right, #f0f0f0, #e0e0e0); /* Subtle gradient background */
+    margin: 0; /* Remove default body margin */
+}
+
+#alarm-clock {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px; /* Increased padding */
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Larger shadow for better effect */
+    width: 80%; /* Responsive width */
+    max-width: 400px; /* Maximum width */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+#alarm-clock:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+#set-alarm input, #set-alarm select, #set-alarm button {
+    margin: 10px 5px; /* More margin for better spacing */
+    padding: 10px; /* Increased padding */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Uniform font size */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Inner shadow for input elements */
+}
+
+#set-alarm button {
+    background-color: #4CAF50; /* Green background for button */
+    color: white; /* White text for button */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#set-alarm button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#clock-face {
+    font-size: 3em; /* Larger font size for the clock */
+    margin-bottom: 30px; /* More space below the clock */
+    color: #333; /* Darker text color */
+    font-weight: bold; /* Bold text */
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font for clock */
+}
+
+#alarm-list ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+#alarm-list li {
+    background-color: #f9f9f9; /* Light background for list items */
+    margin: 5px 0; /* Space between items */
+    padding: 10px; /* Padding inside items */
+    border: 1px solid #ddd; /* Border for items */
+    border-radius: 5px; /* Rounded corners */
+    display: flex; /* Flex layout for items */
+    justify-content: space-between; /* Space out content */
+    align-items: center; /* Center content vertically */
+}
+
+#alarm-list button{
+    background-color: #ff6666; /* Red background for delete button */
+    color: white; /* White text for delete button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#alarm-list button:hover {
+    background-color: #ff3333; /* Darker red on hover */
+}
