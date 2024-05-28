@@ -1,5 +1,0 @@
-phone
-
-
-ScratchLess
-created an alarm clock app
